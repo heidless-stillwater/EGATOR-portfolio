@@ -1,0 +1,14 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = https://github.com/heidless-stillwater/react-portfolio-tutorial-1-main.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+[branch "pfolio-site-deploy"]
+	remote = origin
+	merge = refs/heads/pfolio-site-deploy

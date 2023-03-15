@@ -1,0 +1,83 @@
+import React from 'react'
+import './services.css'
+import {BiCheck} from 'react-icons/bi'
+
+const Services = () => {
+  return (
+    <section id='services'>
+      <h5>What I Offer</h5>
+      <h2>Services</h2>
+
+      <div className="container services__container">
+        <article className="service">
+          <div className="service__head">
+            <h3>NextJs/React/JS/dJango</h3>
+          </div>
+
+          <ul className='service__list'>
+            <li>
+              <BiCheck className='service__list-icon' />
+              <p>Development</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon' />
+              <p>Maintenance/Re-factor</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon' />
+              <p>Productinalize/Harden</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon' />
+              <p>Cloud Deploy: AWS/gCloud/Linode; </p>
+            </li>
+          </ul>
+        </article>
+        {/* END OF UI/UX */}
+        <article className="service">
+          <div className="service__head">
+            <h3>Web Development</h3>
+          </div>
+
+          <ul className='service__list'>
+            <li>
+              <BiCheck className='service__list-icon' />
+              <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon' />
+              <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon' />
+              <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+            </li>
+          </ul>
+        </article>
+        {/* WEB DEVELOPMENT */}
+        <article className="service">
+          <div className="service__head">
+            <h3>Agile</h3>
+          </div>
+          <ul className='service__list'>
+            <li>
+              <BiCheck className='service__list-icon' />
+              <p>Experience as Scrum Master</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon' />
+              <p>Open to providing short term cover</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon' />
+              <p>Open to assisting current Scrum Master</p>
+            </li>
+          </ul>
+        </article>
+        {/* END OF CONTENT CREATION */}
+      </div>
+    </section>
+  )
+}
+
+export default Services
